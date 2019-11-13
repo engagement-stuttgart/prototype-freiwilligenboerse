@@ -37,3 +37,16 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Folder structure
+```
+┣━━ src: all the code
+┃   ┣━━ assets: static files
+┃   ┣━━ components: reusable vue components
+┃   ┣━━ lib: plain js modules
+┃   ┣━━ router: all the routes
+┃   ┣━━ store: vuex store, mutators, getters, etc
+┃   ┣━━ styles: global styles and stylus modules
+┃   ┣━━ views: vue components for specific routes (folder structure follows route url)
+┃   ┣━━ App.vue: base layout for everything after login
+┃   ┣━━ main.js: app entry point
