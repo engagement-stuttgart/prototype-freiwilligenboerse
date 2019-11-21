@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",
+    "dev:server": "nodemon --watch server server/index.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
@@ -11,8 +12,12 @@
   },
   "dependencies": {
     "@mdi/font": "^4.5.95",
+    "@polka/send-type": "^0.5.2",
     "buntpapier": "^1.6.3",
     "core-js": "^3.3.2",
+    "cors": "^2.8.5",
+    "fuzzysearch": "^1.0.3",
+    "polka": "^0.5.2",
     "register-service-worker": "^1.6.2",
     "roboto-fontface": "^0.10.0",
     "vue": "^2.6.10",
@@ -37,6 +42,7 @@
     "chai": "^4.1.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "nodemon": "^2.0.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.7",
